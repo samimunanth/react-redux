@@ -4,6 +4,7 @@ import MainHeader from './Admin/Navbar/MainHeader'
 import Sidebar from './Admin/Navbar/Sidebar'
 import Content from './Admin/Navbar/Content'
 import Footer from './Admin/Navbar/Footer';
+import HomeContainer from './Container/HomeContainer';
 import {BrowserRouter as Router,Route,Link} from 'react-router-dom'  
 
 
@@ -11,11 +12,8 @@ function App() {
   return (
     <>
   
-      
-      <MainHeader/>
-      <Sidebar/>
-      <Content/>
-      <Footer/>
+      <HomeContainer/>
+     
       
     </>
   );

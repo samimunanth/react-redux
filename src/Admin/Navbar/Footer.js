@@ -2,7 +2,9 @@ import React from "react";
 
 class Footer extends React.Component{
 
-    render(){
+    render(props){
+        const userdata=this.props;
+        console.log(userdata);
         return(
             <>
             <footer class="main-footer">
